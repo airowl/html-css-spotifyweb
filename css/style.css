@@ -40,6 +40,10 @@ li{
     justify-content: flex-end;
 }
 
+.jtf-ct-sp-bw{
+    justify-content: space-between;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -58,8 +62,10 @@ li{
 
 main{
     width: 100vw;
-    height: 90vh;
+    height: calc(100vh - 100px);
 }
+
+/* MENU SIDE */
 
 section#menu-side{
     width: 15vw;
@@ -70,12 +76,25 @@ section#menu-side{
 
 section#menu-side .logo{
     height: 10%;
-    border: 1px solid red;
 }
 
 section#menu-side .logo img{
-    height: 35px;
+    height: 50px;
 }
+
+section#menu-side .menu-content{
+    height: 90%;
+}
+
+.menu-content nav ul li{
+    padding-left: 1.5rem;
+}
+
+nav .nav-bar i{
+    height: 20px;
+}
+
+/* MAIN CONTENT */
 
 section#main-content{
     width: 85vw;
@@ -100,11 +119,12 @@ div#content{
 
 .footer-play{
     width: 100vw;
-    height: 10vh;
+    height: 100px;
+    min-height: 100px;
     background-color: #282828;
 }
 
-/* TABLE */
+/* TABLET */
 @media screen and (max-width: 768px){
 
     /* MAIN */
