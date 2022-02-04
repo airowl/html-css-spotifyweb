@@ -14,12 +14,36 @@ html{
 
 body{
     font-family: 'Circular Std', sans-serif;
+    color: white;
+}
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 /* FLEX */
 
 .flex{
     display: flex;
+}
+
+.jtf-ct-end{
+    justify-content: flex-end;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* BUTTONS */
+
+.btn{
+    display: inline-block;
+    padding: 1rem 4rem;
+    border: 1px solid white;
+    border-radius: 3.125rem;
+    text-transform: uppercase;
 }
 
 /* MAIN */
@@ -43,6 +67,7 @@ section#main-content{
 div#cta{
     height: 10%;
     width: 100%;
+    padding-right: .5rem;
     background: #080b12;
 }
 
