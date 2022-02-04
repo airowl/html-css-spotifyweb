@@ -61,6 +61,7 @@ div#content{
     background-color: brown;
 }
 
+/* TABLE */
 @media screen and (max-width: 768px){
 
     /* MAIN */
@@ -77,18 +78,37 @@ div#content{
     }
 }
 
+/* MOBILE SMALL */
 @media screen and (max-width: 576px){
 
     /* MAIN */
 
     section#menu-side{
-        width: 25vw;
+        width: 30vw;
         height: 100%;
         background-color: blue;
     }
 
     section#main-content{
-        width: 75vw;
+        width: 70vw;
+        height: 100%;
+    }
+}
+
+/* MOBILE XSMALL */
+
+@media screen and (max-width: 460px){
+
+    /* MAIN */
+
+    section#menu-side{
+        width: 10vw;
+        height: 100%;
+        background-color: blue;
+    }
+
+    section#main-content{
+        width: 90vw;
         height: 100%;
     }
 }
