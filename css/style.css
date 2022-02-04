@@ -10,6 +10,50 @@ html{
     box-sizing: border-box;
 }
 
+/* GLOBALS */
+
 body{
     font-family: 'Circular Std', sans-serif;
+}
+
+/* FLEX */
+
+.flex{
+    display: flex;
+}
+
+main{
+    width: 100vw;
+    height: 90vh;
+    background-color: aqua;
+}
+
+section#menu-side{
+    width: 15vw;
+    height: 100%;
+    background-color: blue;
+}
+
+section#main-content{
+    width: 85vw;
+    height: 100%;
+}
+
+div#cta{
+    height: 10%;
+    width: 100%;
+    background-color: brown;
+}
+
+div#content{
+    height: 90%;
+    width: 100%;
+    background-color: coral;
+    overflow-y: auto;
+}
+
+.footer-play{
+    width: 100vw;
+    height: 10vh;
+    background-color: brown;
 }
