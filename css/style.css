@@ -26,6 +26,20 @@ li{
     list-style-type: none;
 }
 
+/* FONT SIZES */
+
+.font-lg{
+
+}
+
+.font-
+
+/* COLORS */
+
+.clr-white{
+    color: white;
+}
+
 /* FLEX */
 
 .flex{
@@ -42,6 +56,10 @@ li{
 
 .jtf-ct-sp-bw{
     justify-content: space-between;
+}
+
+.jtf-ct-sp-ev{
+    justify-content: space-evenly;
 }
 
 .align-items-center{
@@ -103,6 +121,7 @@ section#main-content{
 
 div#cta{
     height: 10%;
+    min-height: 86px;
     width: 100%;
     padding-right: .5rem;
     background: #080b12;
@@ -117,12 +136,21 @@ div#content{
 
 /* FOOTER */
 
-.footer-play{
+footer{
     width: 100vw;
     height: 100px;
     min-height: 100px;
     background-color: #282828;
 }
+
+.footer-song, .footer-play, .footer-sound{
+    height: 100%;
+}
+
+.footer-song .song img{
+    height: 3rem;
+}
+
 
 /* TABLET */
 @media screen and (max-width: 768px){
