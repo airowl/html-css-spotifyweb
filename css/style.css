@@ -125,6 +125,10 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
     vertical-align: middle;
 }
 
+#playlist h4{
+    margin-bottom: .5rem;
+}
+
 #playlist span.new-playlist i{
     font-size: 3rem;
     width: 3rem;
@@ -142,7 +146,26 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 
 
 #nav-bot{
+    padding: 0 2rem;
+}
 
+#nav-bot .download{
+    border-bottom: 1px solid grey;
+    padding-bottom: .5rem;
+}
+
+#nav-bot .user{
+    padding: .5rem 0;
+}
+
+#nav-bot .user i{
+    font-size: 2rem;
+    vertical-align: sub;
+    margin-right: .4rem;
+}
+
+#nav-bot .user span{
+    font-size: 1.2rem;
 }
 
 
