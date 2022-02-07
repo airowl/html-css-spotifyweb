@@ -29,10 +29,16 @@ li{
 /* FONT SIZES */
 
 .font-lg{
-
+    font-size: 25px;
 }
 
-.font-
+.font-md{
+    font-size: 20px;
+}
+
+.font-sml{
+    font-size: 14px;
+}
 
 /* COLORS */
 
@@ -56,10 +62,6 @@ li{
 
 .jtf-ct-sp-bw{
     justify-content: space-between;
-}
-
-.jtf-ct-sp-ev{
-    justify-content: space-evenly;
 }
 
 .align-items-center{
@@ -140,6 +142,7 @@ footer{
     width: 100vw;
     height: 100px;
     min-height: 100px;
+    padding: 0 1rem;
     background-color: #282828;
 }
 
@@ -147,8 +150,20 @@ footer{
     height: 100%;
 }
 
+.song{
+    margin-right: 3rem;
+}
+
 .footer-song .song img{
     height: 3rem;
+}
+
+.song-title{
+    margin-left: 1rem;
+}
+
+.footer-song .song-icon .fa-heart{
+    margin-right: .6rem;
 }
 
 
