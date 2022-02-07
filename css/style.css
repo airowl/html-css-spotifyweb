@@ -150,10 +150,6 @@ footer{
     background-color: #282828;
 }
 
-.footer-song, .footer-play, .footer-sound{
-    height: 100%;
-}
-
 .song{
     margin-right: 3rem;
 }
@@ -172,6 +168,10 @@ footer{
 
 .footer-play .play-icon i:not(:last-child){
     margin-right: 2rem;
+}
+
+.footer-sound i{
+    margin-right: 1.2rem;
 }
 
 
