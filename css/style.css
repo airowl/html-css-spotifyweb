@@ -100,12 +100,46 @@ section#menu-side{
 
 #nav-top #logo{
     height: 85px;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 #nav-top #logo img{
-    height: 40px;
+    height: 50px;
 }
+
+nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
+    padding-left: 2rem;
+}
+
+#menu{
+    margin-bottom: 1.8rem;
+}
+
+#menu ul li:not(:last-child){
+    margin-bottom: .6rem;
+}
+
+#menu ul li i{
+    font-size: 1.8rem;
+    width: 2rem;
+    vertical-align: middle;
+}
+
+#playlist span.new-playlist i{
+    font-size: 3rem;
+    width: 3rem;
+    vertical-align: middle;
+}
+
+#playlist ul{
+    min-height: 50%;
+    overflow-y: auto;
+}
+
+#playlist ul li{
+    margin-top: .8rem;
+}
+
 
 #nav-bot{
 
