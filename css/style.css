@@ -64,6 +64,10 @@ li{
     justify-content: flex-end;
 }
 
+.jtf-ct-center{
+    justify-content: center;
+}
+
 .jtf-ct-sp-bw{
     justify-content: space-between;
 }
@@ -148,7 +152,6 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
     margin-top: .8rem;
 }
 
-
 #nav-bot{
     padding: 0 2rem;
     background-color: #000000;
@@ -199,15 +202,10 @@ div#content{
 /* FOOTER */
 
 footer{
-    width: 100vw;
+    width: 100vw;    
     height: 100px;
-    min-height: 100px;
     padding: 0 1rem;
     background-color: #282828;
-}
-
-.col-middle{
-    width: 50%;
 }
 
 .col-left .song{
@@ -226,8 +224,25 @@ footer{
     margin-right: .6rem;
 }
 
+.col-middle{
+    width: 40%;
+}
+
 .col-middle .play-icon i:not(:last-child){
     margin-right: 2rem;
+}
+
+.col-middle .play-progress .progress{
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+    margin: 0 1rem;
+}
+
+.progress .bar-progress{
+    width: 30%;
+    height: 100%;
+    background-color: white;
 }
 
 .col-right i{
