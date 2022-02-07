@@ -92,7 +92,7 @@ main{
 /* MENU SIDE */
 
 section#menu-side{
-    width: 250px;
+    width: 230px;
     height: 100%;
     background-color: #000000;
 }
@@ -175,7 +175,7 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 /* MAIN CONTENT */
 
 section#main-content{
-    width: calc(100vw - 250px);
+    width: calc(100vw - 230px);
     height: 100%;
 }
 
