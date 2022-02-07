@@ -20,15 +20,18 @@
 
     <main class="flex">
 
-
+        <!-- SIDE MENU -->
         <section id="menu-side" class="flex flx-col jtf-ct-sp-bw">
 
+            <!-- TOP DEL SIDE MANU -->
             <div id="nav-top">
-                
+
+                <!-- MAIN LOGO -->
                 <div id="logo" class="flex align-items-center">
                     <img src="img/logo.svg" alt="Logo di Spotify">
                 </div>
 
+                <!-- NAV BAR PRINCIPARE -->
                 <nav id="menu">
                     <ul class="nav-bar">
                         <li><i class="fas fa-home"></i> Home</li>
@@ -37,6 +40,7 @@
                     </ul>
                 </nav>
 
+                <!-- NAV BAR DELLA PLAYLIST -->
                 <nav id="playlist">
                     <h3>PLAYLIST</h3>
                     <span><i class="fas fa-plus-square"></i> Crea Playlist</span>
@@ -53,26 +57,34 @@
 
             </div>
             
-                
-                <div id="nav-bot">
-                    alsdjalksjd
-                </div>
+            <!-- BOTTOM DEL SIDE MENU -->
+            <div id="nav-bot">
+                alsdjalksjd
+            </div>
 
-            
         </section>
 
+        <!-- MAIN -->
         <section id="main-content">
+
+            <!-- CTA AL TOP DEL MAIN -->
             <div id="cta" class="flex jtf-ct-end align-items-center">
                 <a href="#" class="btn">Effettua l'upgrade</a>
             </div>
+
+            <!-- CONTENUTO -->
             <div id="content"></div>
         </section>
 
     </main>
 
+    <!-- FOOTER PLAYER SONGS -->
     <footer class="flex jtf-ct-sp-bw align-items-center">
 
-        <div class="footer-song flex align-items-center">
+        <!-- FOOTER SONG -->
+        <div class="col-left flex align-items-center">
+
+            <!-- BRANO CON TITOLO -->
             <div class="song flex align-items-center">
                 <img src="img/sinister.jpeg" alt="Brano musicale sinister">
                 <div class="song-title">
@@ -80,13 +92,19 @@
                     <p class="font-sml">Brano Nome</p>
                 </div>
             </div>
+
+            <!-- ICONE -->
             <div class="song-icon">
                 <i class="far fa-heart"></i>
                 <i class="far fa-folder"></i>
             </div>
+
         </div>
 
-        <div class="footer-play clr-white">
+        <!-- FOOTER PLAYER -->
+        <div class="col-middle clr-white">
+
+            <!-- ICONE DEL PLAYER -->
             <div class="play-icon flex align-items-center">
                 <i class="fas fa-random"></i>
                 <i class="fas fa-step-forward rotatey-180deg"></i>
@@ -94,14 +112,18 @@
                 <i class="fas fa-step-forward"></i>
                 <i class="fas fa-undo-alt rotatey-180deg"></i>
             </div>
+
+            <!-- MUSIC RANGE -->
             <div class="flex align-items-center">
                 <span>0:25</span>
                 <input type="range" name="Music" id="music-range">
                 <span>4:35</span>
             </div>
+            
         </div>
 
-        <div class="footer-sound clr-white flex align-items-center">
+        <!-- FOOTER SOUND -->
+        <div class="col-right clr-white flex align-items-center">
             <i class="fas fa-list-ul"></i>
             <i class="fas fa-desktop"></i>
             <i class="fas fa-volume-up"></i>

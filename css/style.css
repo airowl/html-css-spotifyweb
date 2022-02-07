@@ -143,27 +143,27 @@ footer{
     background-color: #282828;
 }
 
-.song{
+.col-left .song{
     margin-right: 3rem;
 }
 
-.footer-song .song img{
+.col-left .song img{
     height: 3rem;
 }
 
-.song-title{
+.col-left .song .song-title{
     margin-left: 1rem;
 }
 
-.footer-song .song-icon .fa-heart{
+.col-left .song-icon .fa-heart{
     margin-right: .6rem;
 }
 
-.footer-play .play-icon i:not(:last-child){
+.col-middle .play-icon i:not(:last-child){
     margin-right: 2rem;
 }
 
-.footer-sound i{
+.col-right i{
     margin-right: 1.2rem;
 }
 
