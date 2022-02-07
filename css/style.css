@@ -98,25 +98,6 @@ section#menu-side{
     background-color: #000000;
 }
 
-section#menu-side .logo{
-    height: 10%;
-}
-
-section#menu-side .logo img{
-    height: 50px;
-}
-
-section#menu-side .menu-content{
-    height: 90%;
-}
-
-.menu-content nav ul li{
-    padding-left: 1.5rem;
-}
-
-nav .nav-bar i{
-    height: 20px;
-}
 
 /* MAIN CONTENT */
 
