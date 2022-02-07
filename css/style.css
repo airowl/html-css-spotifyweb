@@ -92,8 +92,7 @@ main{
 /* MENU SIDE */
 
 section#menu-side{
-    width: 15vw;
-    min-width: 200px;
+    width: 250px;
     height: 100%;
     background-color: #000000;
 }
@@ -103,7 +102,11 @@ section#menu-side{
     padding-left: 2rem;
 }
 
-#nav-top #logo img{
+#nav-top #logo .logo-sm{
+    display: none;
+}
+
+#nav-top #logo .logo-lg{
     height: 50px;
 }
 
@@ -172,7 +175,7 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 /* MAIN CONTENT */
 
 section#main-content{
-    width: 85vw;
+    width: calc(100vw - 250px);
     height: 100%;
 }
 
@@ -260,17 +263,84 @@ footer{
 
 /* MOBILE XSMALL */
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 510px){
 
     /* MAIN */
 
-    /* section#menu-side{
-        width: 10vw;
+    section#menu-side{
+        width: 45px;
         height: 100%;
+    }
+    
+    #nav-top #logo{
+        height: auto;
+        padding-left: 0;
+        padding: .4rem;
+    }
+
+    #nav-top #logo .logo-sm{
+        display: inline-block;
+        width: 40px;
+    }
+    
+    #nav-top #logo .logo-lg{
+        display: none;
+    }
+    
+    nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
+        padding-left: 0;
+    }
+    
+    #menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #menu ul li i{
+        font-size: 1.4rem;
+        width: auto;
+        vertical-align: middle;
+    }
+
+    #menu ul li span{
+        display: none;
+    }
+
+    #playlist{
+        display: none;
+    }
+    
+    #nav-bot{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #nav-bot .download{
+        border-bottom: 0 solid grey;
+        padding-bottom: .5rem;
+    }
+
+    #nav-bot .download span{
+        display: none;
+    }
+    
+    #nav-bot .user{
+        padding: .5rem 0;
+    }
+
+    #nav-bot .user i{
+        margin: 0;
+    }
+    
+    #nav-bot .user span{
+        display: none;
     }
 
     section#main-content{
-        width: 90vw;
+        width: calc(100vw - 45px);
         height: 100%;
-    } */
+    }
 }
