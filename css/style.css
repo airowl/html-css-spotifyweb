@@ -98,6 +98,19 @@ section#menu-side{
     background-color: #000000;
 }
 
+#nav-top #logo{
+    height: 85px;
+    padding-left: 1rem;
+}
+
+#nav-top #logo img{
+    height: 40px;
+}
+
+#nav-bot{
+
+}
+
 
 /* MAIN CONTENT */
 
@@ -107,15 +120,14 @@ section#main-content{
 }
 
 div#cta{
-    height: 10%;
-    min-height: 86px;
+    height: 85px;
     width: 100%;
     padding-right: .5rem;
     background: #080b12;
 }
 
 div#content{
-    height: 90%;
+    height: calc(100% - 85px);
     width: 100%;
     background-color: #141922;
     overflow-y: auto;
