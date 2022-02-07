@@ -19,7 +19,6 @@ body{
 
 a, a:hover, a:visited{
     text-decoration: none;
-    color: white;
 }
 
 li{
@@ -125,7 +124,8 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 }
 
 #menu ul li:not(:last-child){
-    padding-bottom: .6rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
 }
 
 li.active::before{
@@ -209,6 +209,34 @@ div#content{
     width: 100%;
     background-color: #141922;
     overflow-y: auto;
+}
+
+.main-nav ul li{
+    display: inline-block;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.main-nav ul li.nav-main-active::after{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-nav ul li:not(:last-child){
+    margin-right: 1.2rem;
+}
+
+.main-nav ul li a{
+    color: #75777c;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 /* FOOTER */
@@ -329,6 +357,10 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    li.active::before{
+        display: none;
     }
     
     #menu ul li i{
