@@ -117,6 +117,7 @@ section#menu-side{
 
 nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
     padding-left: 2rem;
+    position: relative;
 }
 
 #menu{
@@ -124,7 +125,18 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 }
 
 #menu ul li:not(:last-child){
-    margin-bottom: .6rem;
+    padding-bottom: .6rem;
+}
+
+li.active::before{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background-color: greenyellow;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #menu ul li i{
