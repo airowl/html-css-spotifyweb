@@ -75,6 +75,10 @@ li{
     align-items: center;
 }
 
+.flx-wrap{
+    flex-wrap: wrap;
+}
+
 /* BUTTONS */
 
 .btn{
