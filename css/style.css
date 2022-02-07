@@ -95,6 +95,7 @@ section#menu-side{
     width: 230px;
     height: 100%;
     background-color: #000000;
+    position: relative;
 }
 
 #nav-top #logo{
@@ -139,8 +140,8 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 }
 
 #playlist ul{
-    min-height: 50%;
-    overflow-y: auto;
+    overflow-y: scroll;
+    max-height: 50%;
 }
 
 #playlist ul li{
@@ -150,11 +151,13 @@ nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
 
 #nav-bot{
     padding: 0 2rem;
+    background-color: #000000;
+    position: relative;
 }
 
 #nav-bot .download{
     border-bottom: 1px solid grey;
-    padding-bottom: .5rem;
+    padding: .5rem 0;
 }
 
 #nav-bot .user{
@@ -201,6 +204,10 @@ footer{
     min-height: 100px;
     padding: 0 1rem;
     background-color: #282828;
+}
+
+.col-middle{
+    width: 50%;
 }
 
 .col-left .song{
