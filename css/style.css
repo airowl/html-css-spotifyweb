@@ -26,6 +26,10 @@ li{
     list-style-type: none;
 }
 
+.rotatey-180deg{
+    transform: rotateY(180deg);
+}
+
 /* FONT SIZES */
 
 .font-lg{
@@ -165,6 +169,11 @@ footer{
 .footer-song .song-icon .fa-heart{
     margin-right: .6rem;
 }
+
+.footer-play .play-icon i:not(:last-child){
+    margin-right: 2rem;
+}
+
 
 
 /* TABLET */
