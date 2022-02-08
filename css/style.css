@@ -317,12 +317,14 @@ footer{
     height: 5px;
     background-color: grey;
     margin: 0 1rem;
+    border-radius: 5px;
 }
 
 .progress .bar-progress{
     width: 30%;
     height: 100%;
     background-color: white;
+    border-radius: 5px;
 }
 
 .col-right i{
