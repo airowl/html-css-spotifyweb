@@ -237,9 +237,9 @@ div#content{
     transform: translateX(-50%);
 }
 
-/* .main-nav ul li:not(:last-child){
+.main-nav ul li:not(:last-child){ /* forse questo a da eliminare */
     margin-right: 1.2rem;
-} */
+} 
 
 .main-nav ul li a{
     color: #75777c;
@@ -254,7 +254,7 @@ div#content{
 }
 
 .box-song{
-    width: 160px;
+    width: 200px;
     text-align: center;
 }
 
