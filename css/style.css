@@ -253,6 +253,10 @@ div#content{
     padding: 0 1rem;
 }
 
+#content h2{
+    margin-bottom: .6rem;
+}
+
 .list-songs{
     gap: .8rem;
     margin: 2rem 0;
@@ -268,7 +272,11 @@ div#content{
 }
 
 .box-song p{
-    margin: .8rem 0;
+    margin: .5rem 0;
+}
+
+.artist .list-songs .box-song img{
+    border-radius: 50%;
 }
 
 /* FOOTER */
