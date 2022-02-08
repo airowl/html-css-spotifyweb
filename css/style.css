@@ -249,8 +249,17 @@ div#content{
 
 /* MAIN CONTENT */
 
+.recently, .album, .artist{
+    padding: 0 1rem;
+}
+
+/* #content h2{
+    margin-bottom: 1rem;
+} */
+
 .list-songs{
     gap: .8rem;
+    margin: 2rem 0;
 }
 
 .box-song{
@@ -261,7 +270,6 @@ div#content{
 .box-song img{
     width: 100%;
 }
-
 
 /* FOOTER */
 
