@@ -221,7 +221,7 @@ div#content{
 
 .main-nav ul li{
     display: inline-block;
-    padding: 1rem 0;
+    padding: 2rem 0;
     position: relative;
 }
 
@@ -253,10 +253,6 @@ div#content{
     padding: 0 1rem;
 }
 
-/* #content h2{
-    margin-bottom: 1rem;
-} */
-
 .list-songs{
     gap: .8rem;
     margin: 2rem 0;
@@ -269,6 +265,10 @@ div#content{
 
 .box-song img{
     width: 100%;
+}
+
+.box-song p{
+    margin: .8rem 0;
 }
 
 /* FOOTER */
