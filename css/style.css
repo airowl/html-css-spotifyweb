@@ -208,8 +208,17 @@ section#main-content{
 div#cta{
     height: 85px;
     width: 100%;
-    padding-right: .5rem;
+    padding-right: 3rem;
     background: #080b12;
+    flex-direction: row-reverse;
+}
+
+div#cta a{
+    transition: all 300ms ease-in-out;
+}
+
+div#cta a:hover{
+    transform: scale(1.2);
 }
 
 div#content{
@@ -272,8 +281,31 @@ div#content{
     text-align: center;
 }
 
-.box-song img{
+.box-song .image-album{
+    position: relative;
+}
+
+.box-song .image-album img{
     width: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.box-song .image-album:hover img{
+    opacity: 0.5;
+}
+
+.box-song .image-album i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.box-song .image-album:hover i{
+    opacity: 1;
 }
 
 .box-song p{
