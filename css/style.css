@@ -219,6 +219,10 @@ div#content{
     overflow-y: auto;
 }
 
+.main-nav{
+    text-align: center;
+}
+
 .main-nav ul li{
     display: inline-block;
     padding: 2rem 0;
@@ -258,12 +262,13 @@ div#content{
 }
 
 .list-songs{
-    gap: .8rem;
+    gap: .5%;
+    flex-wrap: wrap;
     margin: 2rem 0;
 }
 
 .box-song{
-    width: 200px;
+    width: calc(94% / 6);
     text-align: center;
 }
 
@@ -334,30 +339,25 @@ footer{
 
 
 /* TABLET */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
 
     /* MAIN */
 
-    .list-songs{
-        flex-wrap: wrap;
+    .box-song{
+        width: calc(94% / 4);
     }
 
 }
 
 /* MOBILE SMALL */
-@media screen and (max-width: px){
+@media screen and (max-width: 768px){
 
     /* MAIN */
 
-    /* section#menu-side{
-        width: 30vw;
-        height: 100%;
+    .box-song{
+        width: calc(94% / 2);
     }
 
-    section#main-content{
-        width: 70vw;
-        height: 100%;
-    } */
 }
 
 /* MOBILE XSMALL */
