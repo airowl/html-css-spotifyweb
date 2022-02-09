@@ -19,6 +19,7 @@ body{
 
 a, a:hover, a:visited{
     text-decoration: none;
+    color: #75777c;
 }
 
 li{
@@ -27,6 +28,14 @@ li{
 
 .rotatey-180deg{
     transform: rotateY(180deg);
+}
+
+.hover-wht{
+    transition: all 300ms ease-in-out;
+}
+
+.hover-wht:hover{
+    color: white;
 }
 
 /* FONT SIZES */
@@ -122,7 +131,7 @@ section#menu-side{
     height: 50px;
 }
 
-nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist span{
+nav#menu ul li, nav#playlist ul li, nav#playlist h4, nav#playlist .new-playlist{
     padding-left: 2rem;
     position: relative;
 }
@@ -157,7 +166,7 @@ li.active::before{
     margin-bottom: .5rem;
 }
 
-#playlist span.new-playlist i{
+#playlist div.new-playlist i{
     font-size: 3rem;
     width: 3rem;
     vertical-align: middle;
@@ -179,17 +188,26 @@ li.active::before{
 }
 
 #nav-bot .download{
-    border-bottom: 1px solid grey;
-    padding: .5rem 0;
+    padding: .8rem 0;
+    display: inline-block;
 }
 
 #nav-bot .user{
-    padding: .5rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
 }
 
-#nav-bot .user i{
-    font-size: 2rem;
-    vertical-align: sub;
+#nav-bot .user .user-img{
+    height: 40px;
+    margin-right: .4rem;
+    background-color: grey;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#nav-bot .user .user-img img{
+    height: 100%;
+    width: 100%;
     margin-right: .4rem;
 }
 
@@ -219,6 +237,7 @@ div#cta a{
 
 div#cta a:hover{
     transform: scale(1.2);
+    color: white;
 }
 
 div#content{
@@ -466,7 +485,7 @@ footer{
         padding: .5rem 0;
     }
 
-    #nav-bot .user i{
+    #nav-bot .user img{
         margin: 0;
     }
     
